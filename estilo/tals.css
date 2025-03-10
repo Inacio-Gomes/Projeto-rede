@@ -22,6 +22,11 @@ main {
     height: 100vh;
 }
 
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
 section#telefone {
     position: absolute;
     height: 627px;
@@ -34,10 +39,10 @@ section#telefone {
 
 iframe#tela {
     position: relative;
-    top: 80px;
-    left: 22px;
-    width: 268px;
-    height: 472px;
+    top: 79px;
+    left: 21.5px;
+    width: 269px;
+    height: 473px;
 }
 
 section#redes{
